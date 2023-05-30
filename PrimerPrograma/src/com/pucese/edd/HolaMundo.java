@@ -73,7 +73,7 @@ public class HolaMundo {
 		//operadores logicos ejercicio
 		//valores randomicos aleatorios
 		Random aleatorio = new Random();
-		int i = aleatorio.nextInt() % 100;
+		int i = aleatorio.nextInt() % 100; 
 		int j = aleatorio.nextInt() % 100;
 		System.out.println("i: " + i);
 		System.out.println("j: " + j);
