@@ -91,6 +91,23 @@ public class HolaMundo {
 		System.out.println("i<10 || j>10 es " +((i < 10)|| (j > 10)));
 		
 		
+		//funciones matematicas a traves de librerias de java
+		//MATH
+		
+		//potencia
+		System.out.println("potencia: " + Math.pow(4, 3));
+		//raiz cuadrada
+		System.out.println("raiz cuadrada: " + Math.sqrt(25));
+		//logaritmo
+		System.out.println("logaritmo : " + Math.log10(25));
+		//valor absoluto
+		System.out.println("logaritmo : " + Math.abs(25));
+		//redondeo
+		System.out.println("redondeo al entero mas proximo : " + Math.floor(25));
+		//max maximo min minimo PI
+		//funciones trigonometricas sen cosen tangente
+		
+		
 		
 		
 		
