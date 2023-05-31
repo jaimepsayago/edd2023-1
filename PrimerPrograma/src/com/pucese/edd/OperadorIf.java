@@ -23,14 +23,20 @@ public class OperadorIf {//operadorif
 				}//fin if 3
 		//mensaje
 		System.out.println(resultado);
-		//operador terciario = if resumido
+		//operador terciario = if resumidossss
 		
 		int x =4, y=2, mayor=0;
 		
 		mayor = (x < y) ? x : 0;
 		System.out.println(mayor);
 		
-		
+		//TAREA EN CLASE
+		/*
+		 * ESCRIBIR UN PROGRAMA QUE INGRESE POR TECLADO 5 NUMEROS ENTEROS AL AZAR
+		 * PARA CADA VALOR UTILIZAR UNA SENTENCIA IF ELSE PARA CLASIFICARLO COMO MAYOR MENOR O IGUAL
+		 * 
+		 * 
+		 */
 		
 		
 		
