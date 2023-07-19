@@ -18,16 +18,52 @@ public class GrupoPersonas {
 		listaPersonas.add(persona);
 	}
 	
-
-	public eliminaPersona() {
-		
+	//dos metodos y son polimorficos
+	public void eliminaPersona(Persona persona) {
+		//lista de personas borrar el elemento
+		listaPersonas.remove(persona);
 	}
 	
-	public eliminaPersona() {
+	public void eliminaPersona(String dni) {
+		//recorrido a la lista hasta encontrar el valor del parametro
+		for(int i=0; i<listaPersonas.size(); i++) {
+			if (listaPersonas.get(i).getDni() == dni) {
+				listaPersonas.remove(i);
+			}
+		}
 		
 	}
-
-
+	//mostrar informacion
+	@Override
+	public String toString() {
+		return "GrupoPersonas [listaPersonas=" + listaPersonas + "]";
+	}
+	
+	public void mostrar() {
+		System.out.println("mostrar datos de la lista de personas");
+		for(Persona p: listaPersonas) {
+			System.out.println(p.toString());
+		}
+	}
+	
+	public void mostrarconFor() {
+		System.out.println("mostrar datos de la lista de personas");
+		for(int i=0; i < listaPersonas.size(); i++) {
+			System.out.println(listaPersonas.get(i).getNombre() 
+					+ " " +  listaPersonas.get(i).getDireccion());
+				
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 

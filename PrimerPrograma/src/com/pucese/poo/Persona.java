@@ -52,6 +52,18 @@ public class Persona {
 	public void setDireccion(String direccion) {
 		this.direccion = direccion;
 	}
+	
+	//metodo nombre y direccio
+	public String nombreDireccion() {
+		return this.nombre + " , " + this.direccion;
+	}
+	
+	//metodo para redifinir
+	public String identificacion() {
+		return nombreDireccion();
+	}
+	
+	
 	//metodos equals and toString
 	@Override
 	public int hashCode() {
