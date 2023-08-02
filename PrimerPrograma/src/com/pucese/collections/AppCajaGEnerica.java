@@ -7,6 +7,13 @@ public class AppCajaGEnerica {
 		
 		Caja c = new Caja();
 		
+		CajaGenerica<Integer> cajaG = new CajaGenerica<>();
+		cajaG.poner(12);
+		
+		CajaGenerica<String> cajagS = new CajaGenerica<>();
+		cajagS.poner("hola");
+		
+		
 	
 		
 
